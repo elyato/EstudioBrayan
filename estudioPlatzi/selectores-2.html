@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        div p {
-            color: lime;
-        }
+      div p {
+        color: lime;
+      }
+      div > div {
+        background: rgb(214, 65, 214);
+      }
+      .es {
+        background: red;
+      }
+      div + section {
+        background: palevioletred;
+      }
+      div ~ p {
+        color: powderblue;
+      }
+      div > ul {
+        color: chartreuse;
+      }
+      .Brayan > article > nav > ul > li {
+        color: chartreuse;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div>
+      <div>
         <p>Platzi</p>
-        <p>Es</p>
-        <p>Increible</p>
-        
+        <div class="es">Es</div>
+      </div>
+    </div>
 
+    <p>Clase de selectores</p>
+    <p>Clase de selectores</p>
+    <p>kuh</p>
 
-    </div> 
-</body>
+    <section class="Brayan">
+      <article>
+        <nav>
+          <ul>
+            <li>leidy es una fea</li>
+          </ul>
+        </nav>
+      </article>
+    </section>
+    <section>Es lo mejor</section>
+    <div>
+      <p>Master</p>
+    </div>
+  </body>
 </html>
